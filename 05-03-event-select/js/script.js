@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 	$('#example').on('click', 'button', function(){ 	//get the list and delegate the click to the btuuton
 		var selected = $('#place option:selected'); // find selected item by list having option that is selected
