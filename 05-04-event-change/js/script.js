@@ -9,7 +9,8 @@ $(document).ready(function() {
 
 		var value = sel.val();
 		var price = sel.data('price'); // accessing the data-price html5 attribute
-
+		if(price) {
 		$('#result').html( value+' '+ price );
+	}
 	});
 });
