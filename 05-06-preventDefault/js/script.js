@@ -1,11 +1,10 @@
 $(document).ready(function() {
-	$('#example').on('click', 'a', function(e) {
-		e.preventDefault();	
-		e.stopPropagation();	
-		console.log('hello');
+	//precent default
+	$('#example').on('click', 'a', function(someEventVar){
+		
+		someEventVar.preventDefault();
+		someEventVar.stopPropagation();
+		console.log('Hello');
 	});
 
-	$('#example').on('click', function(e) {
-		console.log('hello container');
-	});
 });
