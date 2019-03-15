@@ -7,4 +7,5 @@ $(document).ready(function() {
 		console.log('Hello');
 	});
 
+	// comment for Emily
 });
